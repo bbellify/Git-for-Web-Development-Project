@@ -18,13 +18,20 @@ anchor (a) and img
 11. What elements can I add a class to? 
 12. How many times can I use the same class on a page? 
 13. How do I get my link to open in a new tab?
-14. What is the alt attribute in the image tag used for? 
+14. What is the alt attribute in the image tag used for?
+used for a description of the image
 15. How do I reference an id?
+#id {}
 16. What is the difference between a section and a div
+
 17. What is CSS used for? 
+styling HTML 
 18. How to we select an element? Example - every h2 on the page
+h2 {}
 19. What is the difference between a class and an id? - Give me an example of when I might use each one
+class is used on more than one element to style the same, an id is used only on one single element. a style would be helpful for making all images for example have a border when hovered on, where an id might be used to reference one specific image for unique hover behavior
 20. How do we select classes in CSS?
+.class {}
 21. How do we select a p element with a single class of “human””?
 22. What is a parent child selector? When would this be useful? 
 23. How do you select all links within a div with the class of sidebar?
@@ -34,13 +41,19 @@ anchor (a) and img
 27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
 28. How do I add a 1px border around my div that is dotted and black?
 29. How do I select everything on the page? 
+* {}
 30. How do I write a comment in CSS?
+/* comment here */
 31. How do I find out what file I am in, when I am using the command line? 
+pwd
 32. Using the command line - how do I see a list of files/folders in my current folder?
 33. How do I remove a file via the command line? Why do I have to be careful with this? 
 34. Why should I use version control? 
+helps multiple collaborators work on the same repo without danger of breaking something, writing over each other's work, etc. helps an individual keep track of their own changes, create alternate timelines (branches)
 35. How often should I commit to github?
+around 20 mins
 36. What is the command we would use to push our repo up to github? 
+git push -u origin branch-name if first time, git push after that
 37. Walk me through Lambda's git flow. 
 
 Stretch Questions
