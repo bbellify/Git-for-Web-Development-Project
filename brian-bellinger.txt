@@ -47,7 +47,9 @@ class is used on more than one element to style the same, an id is used only on 
 31. How do I find out what file I am in, when I am using the command line? 
 pwd
 32. Using the command line - how do I see a list of files/folders in my current folder?
+ls
 33. How do I remove a file via the command line? Why do I have to be careful with this? 
+rm, must be careful because it can delete with no warning
 34. Why should I use version control? 
 helps multiple collaborators work on the same repo without danger of breaking something, writing over each other's work, etc. helps an individual keep track of their own changes, create alternate timelines (branches)
 35. How often should I commit to github?
@@ -59,7 +61,9 @@ git push -u origin branch-name if first time, git push after that
 Stretch Questions
 
     1. What is the difference between an inline element and a block element?
+    the box containing an inline element stops at the end of the content, a block element will take up a full line, past the end of the content
     2. What happens when an element is positioned absolutely? 
     3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
     4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+    block: p, h1-h6, div  inline: span, a
     5. In your own words, explain the box model. What is the "fix" for the box model, in other words, how do we make all elements respect the width we've given them? 
