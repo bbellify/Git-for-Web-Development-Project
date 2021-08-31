@@ -9,7 +9,7 @@ provides additional information about the element, goes in opening tag
 4. What is the h1 tag used for? How many times should I use it on a page?
 used for the most important header on the page, used only once
 5. Name two tags that have required attributes
-anchor (a) and img 
+a and img 
 6. What do we put in the head of our HTML document? 
 information for the browser for how to display the web page that does not actually show up as content, including links to style page, font families, etc
 7. What is an id? 
@@ -25,9 +25,9 @@ any element
 12. How many times can I use the same class on a page? 
 as many as you want
 13. How do I get my link to open in a new tab?
-target="_blank"
+add the attribute target="_blank"
 14. What is the alt attribute in the image tag used for?
-used for a description of the image
+used for a description of the image in case image cannot be viewed
 15. How do I reference an id?
 #id {}
 16. What is the difference between a section and a div
@@ -41,13 +41,21 @@ class is used on more than one element to style the same, an id is used only on 
 20. How do we select classes in CSS?
 .class {}
 21. How do we select a p element with a single class of “human””?
+p.human {} or possibly just .human {}
 22. What is a parent child selector? When would this be useful? 
+selects only the elements (children) under a chosen element (parent), useful for when you want to style only ps that are under a section, for example
 23. How do you select all links within a div with the class of sidebar?
+div.sidebar a {}
 24. What is a pseudo selector?
+a selector for elements in a certain state, eg div:hover
 25. What do we use the change the spacing between lines?
+line-height:
 26. What do we use to change the spacing between letters?
+letter-spacing:
 27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+text-transform: uppercase; text-transform: lowercase; text-transform: capitalize
 28. How do I add a 1px border around my div that is dotted and black?
+div {border: 1px dotted black}
 29. How do I select everything on the page? 
 * {}
 30. How do I write a comment in CSS?
@@ -65,6 +73,7 @@ around 20 mins
 36. What is the command we would use to push our repo up to github? 
 git push -u origin branch-name if first time, git push after that
 37. Walk me through Lambda's git flow. 
+    1. fork the repo 2. get clone via ssh link 3. navigate to directory where repo will go 4. git clone <repo-link> 5. cd into new repo 6. create branch with git checkout -b first-last 7. open with vscode with code . (optional) 8. do work 9. add/commit changes with git add . and git commit -m "message here" 10. push to remote repo with git push -u origin first-last (first time) or just git push (after first time) 11. on github, make pull request, making sure to set base repo to your own fork (not Lambda master) 12. take url for pull request and submit via canvas
 
 Stretch Questions
 
